@@ -42,6 +42,7 @@ export class InvestorComponent implements OnInit, OnDestroy {
     this.renderer.appendChild(document.head, link);
   }
 
+  // concerned about the theme lingering after navigating away, implement OnDestroy
   ngOnDestroy(): void {
     const existingLink = document.getElementById(this.themeLinkId);
     if (existingLink) {
