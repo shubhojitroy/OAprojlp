@@ -35,7 +35,7 @@ export class InvestorComponent implements OnInit, OnDestroy {
     this.renderer.setAttribute(
       link,
       'href',
-      `assets/themes/theme-${theme}.scss`
+      `assets/themes/theme-${theme}.css`
     ); // Assumes file in `assets/themes/`
 
     // Append to head
