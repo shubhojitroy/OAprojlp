@@ -6,7 +6,7 @@ body {
       rgba(88, 93, 101, 0.2726),
       rgba(55, 62, 80, 0.5762)
     ),
-    url("../images/images-boardroom/background.jpg");
+    url("../images/images-realm/Background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -16,9 +16,10 @@ body {
 }
 
 .logo-img {
-  background-image: url("../images/images-boardroom/logo.png");
+  background-image: url("../images/images-realm/realm-logo-white.svg");
   display: block;
   background-repeat: no-repeat;
+  background-size: contain;
   cursor: pointer;
   padding: 20px;
 }
